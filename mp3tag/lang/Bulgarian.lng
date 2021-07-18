@@ -1,6 +1,6 @@
 ﻿LANGAUTHOR Valeri Vladimirov
 LANGCONTACT valeri1955@abv.bg
-LANGVERSION 3.01
+LANGVERSION 3.04a
 LANGNAME Bulgarian
 LANGNAMELOC Български
 SLangCancel О&тказ
@@ -120,6 +120,9 @@ _C_MNU_HELP_KEYBOARD &Клавиши за бърза навигация
 _C_MNU_HELP_SUPPORT Поддръжка в Интернет ...
 _C_MNU_HELP_UPGRADE Проверка за обновление ...
 _C_MNU_HELP_WWW Уебсайт на \"Mp3tag\" ...
+_C_MNU_TAG_EDIT Edit...\tF2
+_C_MNU_TAG_NEW Add...\tIns
+_C_MNU_TAG_REMOVE Remove\tDel
 _C_MNU_TAGSOURCES Таг &Източници
 _C_MNU_TOOLS &Инструменти
 _C_MNU_VIEW &Изглед
@@ -129,6 +132,7 @@ _C_MNU_VIEW_FILTER_AUTOAPPLY Автоприлагане на филтър
 _C_MNU_VIEW_ID3 &Маска за въвеждане Тагове\tCtrl+Q
 _C_MNU_VIEW_REFRESH Об&нови\tF5
 _C_MNU_VIEW_SORTBY Под&реди по...
+_C_MNU_VIEW_SORTBYRANDOM Произволен ред
 _C_MNU_VIEW_TAGS &Тагове...\tALT+T
 _C_MNU_VIEW_TOOLBAR Бар &Инструменти
 _C_MNU_SB_ACTIONS Прилага действия определени от потребителя на избраните файлове.
@@ -196,11 +200,18 @@ _C_MNU_SB_WND_SIZE Преоразмери прозореца
 _C_MULTILINE Многоредово
 _C_OK &ОК
 _C_OPT_ACTIONGROUPS Групи действия
+_C_OPT_ACTIONGROUPS_BTN_APPLY &Приложи
+_C_OPT_ACTIONGROUPS_SEL_EMPTY Няма включена група действия
+_C_OPT_ACTIONGROUPS_SEL_MULTI {1} включени групи действия
+_C_OPT_ACTIONGROUPS_SEL_SINGLE Една включена група действия
+_C_OPT_ACTIONGROUPS_SORTBYNAME Подреди по име
+_C_OPT_ACTIONGROUPS_SORTBYSTATE Подреди по състояние
 _C_OPT_ACTIONS Действие
 _C_OPT_ACTIONS_TYPE Избор тип действие
 _C_OPT_ADVANCED Разширени
 _C_OPT_ADVANCED_ID3V2LANG Код на езика (ISO-639-2) на ID3v2 коментар
 _C_OPT_ADVANCED_LISTCHAPTERS Покажи заглавията като отделни файлове
+_C_OPT_ADVANCED_POPULARIMETER Always display POPULARIMETER values for ID3v2 ratings
 _C_OPT_CAPTION Настройки
 _C_OPT_CDDB_CAPTION База данни \"freedb\"
 _C_OPT_CDDB_CHK_USEPROXY Използвай &прокси
@@ -401,6 +412,11 @@ _M_STAT_PLAY Възпроизвеждане на файл \"{1}\" ...
 _M_STR_ACTION_ADJUSTCOVER Настройка на обложката
 _M_STR_ACTION_ADJUSTCOVER_FORMAT Формат
 _M_STR_ACTION_ADJUSTCOVER_FORMATKEEP Запазване
+_M_STR_ACTION_ADJUSTCOVER_QUALITY Quality
+_M_STR_ACTION_ADJUSTCOVER_QUALITY_BEST Best
+_M_STR_ACTION_ADJUSTCOVER_QUALITY_HIGH High
+_M_STR_ACTION_ADJUSTCOVER_QUALITY_LOW Low
+_M_STR_ACTION_ADJUSTCOVER_QUALITY_MEDIUM Medium
 _M_STR_ACTION_ADJUSTCOVER_SIZE Макс. размер
 _M_STR_ACTION_CODEPAGE Конвертиране кодовата страница
 _M_STR_ACTION_CODEPAGE_DESC Кодова страница
@@ -425,13 +441,20 @@ _M_STR_ACTION_REM Премахни полетата
 _M_STR_ACTION_REM_DESC Премахни следващите полета (разделени с 'точка със запетая ;' ):
 _M_STR_ACTION_REM_EX Изчиствай полетата освен
 _M_STR_ACTION_REM_EX_DESC Остави следващите полета (разделени с 'точка със запетая ;' ):
+_M_STR_ACTION_SETCOVERPROPERTIES Set cover properties
+_M_STR_ACTION_SETCOVERPROPERTIES_DESC Cover Description:
+_M_STR_ACTION_SETCOVERPROPERTIES_FILTER Set for:
+_M_STR_ACTION_SETCOVERPROPERTIES_FILTER_ALL All covers
+_M_STR_ACTION_SETCOVERPROPERTIES_TYPE Cover Type:
 _M_STR_ACTION_SPLITFIELDS Разделяне полетата от сепаратора 
+_M_STR_ACTIONGROUP_CHANGED Конфигурацията на групите действия беше променена.\r\n\r\nЖелаете ли да запишете промените?
 _M_STR_ACTIONGROUP_NAME Име на група за действие
 _M_STR_ALBUM Албум
 _M_STR_ALBUMARTIST Албум Изпълнител
 _M_STR_ALL_FILEDLGFILTER Всички файлове (*.*)|*.*||
 _M_STR_ARTIST Изпълнител
 _M_STR_AUTHOR Автор
+_M_STR_AUTOSIZECOLUMNS Auto-size columns
 _M_STR_BACK < &Назад
 _M_STR_BROWSE_COPY Копирай в:
 _M_STR_BROWSE_MOVE Премести в:
@@ -516,6 +539,8 @@ _M_STR_OPTS_NEVER Никога
 _M_STR_PLNAME Плейлиста - Име на файл
 _M_STR_PL_CONFIRM Създай плейлиста с данни и именуван файл
 _M_STR_PL_SAVEFILTER Файлове на плейлиста (*.m3u)|*.m3u|Уникод файлове на плейлиста (*.m3u8)|*.m3u8||
+_M_STR_PRESET_SELECTION Create selection preset...
+_M_STR_PRESETS Presets
 _M_STR_PREVIEW Преглед
 _M_STR_PROPERTIES Свойства {1}
 _M_STR_QUICK Бързо
